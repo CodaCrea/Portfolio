@@ -1,0 +1,29 @@
+.article_skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 150px;
+  margin: auto 250px;
+}
+
+.article_skills figure {
+  background: linear-gradient(to top left, #001d23, #31575f, #001d23);
+  width: 10%;
+  box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 15px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/**************** RESPONSIVE ***************/
+
+@media (max-width: 767px) {
+  .article_skills {
+    gap: 30px 30px;
+    margin: auto 0;
+  }
+
+  .article_skills figure {
+    width: 20%;
+  }
+}

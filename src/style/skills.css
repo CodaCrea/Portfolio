@@ -1,0 +1,42 @@
+.container_skills {
+  background: url(../assets/img/logos_de_programmation.png) fixed;
+  background-size: 40%;
+}
+
+.skills_title_para {
+  background: linear-gradient(to left, #003540, #2e4554, #2e4554, #003540);
+  margin: 0 -20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills_title {
+  text-align: center;
+}
+
+.skills_para {
+  margin-top: 20px;
+}
+
+.skills_bloc_title {
+  background: linear-gradient(to left, #003540, #2e4554, #2e4554, #003540);
+  margin: 0 -20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .container_skills {
+    background-size: 100%;
+  }
+
+  .skills_para {
+    margin: 20px 20px 0;
+    text-align: justify;
+  }
+
+  .skills_bloc_title {
+    display: flex;
+    justify-content: center;
+  }
+}

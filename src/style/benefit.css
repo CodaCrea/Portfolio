@@ -1,0 +1,21 @@
+.prestation_titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.prestation_title {
+  display: flex;
+  justify-content: center;
+}
+
+.prestation_title_achievement {
+  margin: 40px 0;
+}
+
+/************** RESPONSIVE **************/
+
+@media (max-width: 767px) {
+  .prestation_title {
+    text-align: center;
+  }
+}
