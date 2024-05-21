@@ -1,0 +1,14 @@
+.prestation_titles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.prestation_title {
+  display: flex;
+  justify-content: center;
+}
+
+.prestation_title_achievement {
+  margin-top: 40px;
+}

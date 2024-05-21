@@ -1,8 +1,30 @@
+<<<<<<< HEAD
+=======
 import { useState } from 'react';
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
 import { NavLink } from 'react-router-dom';
 import '../style/header.css';
 
 const Header = () => {
+<<<<<<< HEAD
+  return (
+    <header>
+      <nav className='header_nav'>
+        <ul className='header_links'>
+          <NavLink to='/' className={({ isActive }) =>
+            isActive ? "nav_active" : ""}>
+            <li>Accueil</li>
+          </NavLink>
+          <NavLink to='/competences' className={({ isActive }) =>
+            isActive ? "nav_active" : ""}>
+            <li>Compétences</li>
+          </NavLink>
+          <NavLink to='/prestations' className={({ isActive }) =>
+            isActive ? "nav_active" : ""}>
+            <li>Prestations</li>
+          </NavLink>
+          <NavLink to="mailto:eric.bt@outlook.fr">
+=======
   const [open, setOpen] = useState(false);
 
   const toggle = () => {
@@ -33,6 +55,7 @@ const Header = () => {
             <li>Prestations</li>
           </NavLink>
           <NavLink to='mailto:eric.bt@outlook.fr'>
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
             <li>Contact</li>
           </NavLink>
         </ul>

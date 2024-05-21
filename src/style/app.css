@@ -10,7 +10,11 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+  background: #2e4554;
+=======
   background: linear-gradient(to left, #003540, #2e4554, #2e4554, #003540);
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
   max-width: 2560px;
 }
 
@@ -46,13 +50,21 @@ a:-webkit-any-link {
 }
 
 ::-webkit-scrollbar-track {
+<<<<<<< HEAD
+  border: 4px solid #2e4554;
+=======
   border: 4px solid #003641;
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #e3e3e3;
+<<<<<<< HEAD
+  border: 1px solid #7b6400;
+=======
   border: 1px solid #001d23;
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
   border-radius: 5px;
 }
 
@@ -78,7 +90,11 @@ a:-webkit-any-link {
 }
 
 .container {
+<<<<<<< HEAD
+  padding: 0 20px;
+=======
   padding: 50px 20px;
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
 }
 
 @media (max-width: 767px) {
@@ -97,6 +113,16 @@ a:-webkit-any-link {
   p {
     font-size: 12px;
   }
+<<<<<<< HEAD
+
+  #checkbox {
+    flex-direction: column;
+    margin: 20px 34px 0;
+    row-gap: 10px;
+    text-align: center;
+  }
+=======
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
 }
 
 @media (min-width: 768px) and (max-width: 915px) {
@@ -108,3 +134,18 @@ a:-webkit-any-link {
     font-size: 15px;
   }
 }
+<<<<<<< HEAD
+
+@media (max-width: 767px) {
+  #contactBlocParaError {
+    line-height: 20px;
+    width: 200px;
+  }
+
+  #contactBlocParaSuccess {
+    width: 200px;
+    padding: 30px 0;
+  }
+}
+=======
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392

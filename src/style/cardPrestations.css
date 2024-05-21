@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+.card_prestations {
+  display: flex;
+  justify-content: center;
+=======
 .cardprestations {
   display: flex;
   flex-wrap: wrap;
@@ -10,4 +15,5 @@
     flex-wrap: nowrap;
     flex-direction: column;
   }
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
 }

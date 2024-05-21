@@ -12,6 +12,15 @@
     ],
     "knowledge": [
       "Vue.js",
+<<<<<<< HEAD
+      "Next.js",
+      "JQuery",
+      "TypeScript",
+      "C",
+      "C++",
+      "C#",
+      "LUA"
+=======
       "TypeScript",
       "JQuery",
       "LUA",
@@ -19,6 +28,7 @@
       "C++",
       "C#",
       "Unity"
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
     ]
   }
 ]

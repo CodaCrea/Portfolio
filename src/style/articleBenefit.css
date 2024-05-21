@@ -1,4 +1,7 @@
 .articlebenefit {
+<<<<<<< HEAD
+  width: 10%;
+=======
   position: relative;
   width: 450px;
   height: 220px;
@@ -12,10 +15,23 @@
   height: 100%;
   border-radius: 15% 0;
   filter: brightness(0.4);
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
 }
 
 .articlebenefit_title {
   position: absolute;
+<<<<<<< HEAD
+  top: 0;
+}
+
+.display {
+  display: block;
+}
+
+.display_none {
+  display: none;
+}
+=======
   width: 100%;
   text-align: center;
   top: 35%;
@@ -65,3 +81,4 @@
     height: 180px;
   }
 }
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392

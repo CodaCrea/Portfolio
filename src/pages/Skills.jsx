@@ -3,7 +3,11 @@ import '../style/skills.css';
 
 const Skills = () => {
   return (
+<<<<<<< HEAD
+    <div className="container">
+=======
     <div className="container container_skills">
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
       <section className="skills">
         <div className="skills_title_para">
           <div className="skills_title">

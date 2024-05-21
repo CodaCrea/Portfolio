@@ -18,7 +18,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer_copyright">
+<<<<<<< HEAD
+        <p>-- © 2023 par EricBT. Tout droits réservés --</p>
+=======
         <p>-- © 2023 par EricBT. Tous droits réservés --</p>
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
       </div>
     </footer>
   );

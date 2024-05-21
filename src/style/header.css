@@ -1,22 +1,35 @@
+<<<<<<< HEAD
+.header_nav {
+=======
 #burgerButton {
   display: none;
 }
 
 .header_nav,
 .header_nav_open {
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
   background-color: #001d23;
   display: flex;
   justify-content: center;
   padding: 40px 0;
 }
 
+<<<<<<< HEAD
+.header_links {
+=======
 .header_links,
 .header_links_open {
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
   display: flex;
   column-gap: 60px;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
+.nav_active li {
+  color: #456a83;
+}
+=======
 .nav_active {
   pointer-events: none;
 }
@@ -123,3 +136,4 @@
     z-index: 2;
   }
 }
+>>>>>>> e62148da2e7b391957a801c93e17d0a334b4c392
